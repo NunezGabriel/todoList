@@ -13,7 +13,7 @@ function send(){
     todoInput.setAttribute('type', 'checkbox')
     let todoListItem = document.createElement('LABEL')
     todoListItem.setAttribute('for', 'caja')
-    todoListItem.innerHTML = `${todoName.value} ||||| ends: ${duedate.value}`
+    todoListItem.innerHTML = `${todoName.value} ---> ends: ${duedate.value}    `
     copy.innerHTML = todoListItem.textContent
     seccionTodos.appendChild(todoListItem)
     seccionTodos.appendChild(todoInput)

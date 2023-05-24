@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <h1>To-Do List</h1>
-    <form class="formulario" action="">
-      <input type="text" class="tarea">
-      <input type="date" class="duedate">
-      <div  class="botonSend">rasoputin</div>
-    </form>
-
-    <section class="todoListContainer">
-      <h1>Por hacer</h1>
-    </section>
-    <section class="done">
-      <h1>Hecho</h1>
-    </section>
+    <div class="aplicationMain">
+      <h1>To-Do List</h1>
+      <form class="formulario" action="">
+        <label for="title">Title</label>
+        <input type="text" class="tarea" name="title">
+        <label for="duedate">Duedate</label>
+        <input type="date" class="duedate" name="duedate">
+        <div  class="botonSend">CREATE</div>
+      </form>
+      <h1>To Do</h1>
+      <section class="todoListContainer">
+      </section>
+      <h1>Done</h1>
+      <section class="done">
+      </section>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>
