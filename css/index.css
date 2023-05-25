@@ -9,22 +9,24 @@
 body{
     display: grid;
     place-content: center;
-    background-color: rgb(91, 91, 200);
+    background-color: rgb(25, 75, 98);
 }
 h1{
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ffff;
+
 }
 input{
     color: rgb(91, 91, 200);
     height: 30px;
 }
 .aplicationMain{
-    margin: 50px 0;
+    margin: 150px 0;
     display: grid;
-    gap: 50px;
-    width: 430px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    width: 900px;
     background-color: rgb(14, 124, 128);
     padding: 20px;
     border-radius: 10px;
